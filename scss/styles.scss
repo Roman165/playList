@@ -1,0 +1,50 @@
+@import'normalize.scss';
+@import'_mixins.scss';
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	height: 100%;
+}
+
+body {
+	/* font-family: ''; */
+	font-size: 1.8rem;
+	line-height: 1.6;
+	color: #333;
+	min-height: 100%;
+}
+.container {
+	margin: 0 auto;
+	width: 50%;
+	// display: inline-block; 
+	
+}
+h1 {
+	text-align: center;
+}
+ ul {
+	list-style-type: none;
+	
+}
+
+ span {
+ 	color: #fff;
+ 	position: relative;
+ 	text-align: center;
+ 	margin-right: 10px;
+ 	&:before {
+ 		content: '';
+ 		width: 20px;
+ 		background-color: green;
+ 		height: 20px;
+ 		position: absolute;
+ 		top: 0;
+ 		left: -5px;
+ 		z-index: -1;
+ 		
+ 		
+ 	}
+ }
